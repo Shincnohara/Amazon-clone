@@ -1,0 +1,135 @@
+<!--****************************************************************************************************************************
+*   Module                       :  Amazon UI Clone                                                                            *
+*   Description                  :  Amazon-like user interface with navigation, search, product listings, and footer links     *
+*   Usage                        :  Displays a shopping experience with product categories, deals, and user account features   *
+*                                                                                                                              *
+********************************************************************************************************************************
+*                                                     Maintanance Log                                                          *
+*   DATE        :   12-03-2025                                                                                                 *
+*   DEVELOPER   :   SUDHARSHAN                                                                                                 *
+********************************************************************************************************************************  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="sudharshan">
+    <title>Amazon Website</title>
+    <link rel="shortcut icon" href="assets/amazon_logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="Top">
+        <nav class="navbar">
+            <img src="assets/amazon_logo.jpg" alt="Amazon Logo">
+            <div id="userLocation">
+                <i class="fa fa-light fa-location-dot"></i>
+                <div id="location">
+                    <p>Deliver</p>
+                    <p>Chennai</p>
+                </div>
+            </div>
+            <div id="search">
+                <select id="ourProduct">
+                    <option value="all">All</option>
+                    <option value="laptop">LAPTOP</option>
+                    <option value="mobiles">MOBILES</option>
+                </select>
+                <input type="text" placeholder="Search Amazon" id="searchInput">
+                <div id="searchIcon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <p>Sign In</p>
+            <p>Orders</p>
+            <i class="fa fa-light fa-cart-shopping" style="color: #fff;" id="cart"></i>
+        </nav>
+    </header>
+    <nav id="secondaryNav">
+        <ul id="menu">
+            <li><i class="fa-solid fa-bars fa-lg" style="color: #fff;"></i></li>
+            <li><a href="#">All</a></li>
+            <li><a href="#">Today's Deals</a></li>
+            <li><a href="#">Customer Service</a></li>
+            <li><a href="#">Registry</a></li>
+            <li><a href="#">Gift Cards</a></li>
+            <li><a href="#">Sell</a></li>
+            <li class="shop-deals"><a href="#">Shop deals in Electronics</a></li>    
+        </ul>
+    </nav>
+    <div>
+        <img src="assets/banner.jpg" alt="amazon prime day" id="primeDay">
+    </div>
+    <div id="shoppingItem">
+        <div class="product">
+            <p>Shop Trendy T-Shirts</p>
+            <img src="assets/tshirt.png" alt="T-shirt">
+            <a href="#">shop now</a>
+        </div>
+        <div class="product">
+            <p>Shop Durable Bikes</p>
+            <img src="assets/Bike.webp" alt="Cycle">
+            <a href="#">shop now</a>
+        </div>
+        <div class="product">
+            <p>Shop The Clothes</p>
+            <img src="assets/clothes.png" alt="Clothes">
+            <a href="#">shop now</a>
+        </div>
+        <div class="product">
+            <p>Shop Protective Helmet</p>
+            <img src="assets/helmet.png" alt="Helmet">
+            <a href="#">shop now</a>
+        </div>
+    </div>
+    <div id="movingForward">
+        <a href="#Top">Back to top</a>
+    </div>
+    <footer>
+        <div class="footer-links">   
+            <h2>Get to Know Us</h2>
+            <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press Release</a></li>
+                <li><a href="#">Amazon Science</a></li>
+            </ul>
+        </div>
+        <div class="footer-links">   
+            <h2>Connect with Us</h2>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+        <div class="footer-links">   
+            <h2>Make Money with Us</h2>
+            <ul>
+                <li><a href="#">Sell on Amazon</a></li>
+                <li><a href="#">Sell under Amazon Accelerator</a></li>
+                <li><a href="#">Protect and Build Your Brand</a></li>
+                <li><a href="#">Amazon Global Setting</a></li>
+                <li><a href="#">Become an affillate</a></li>
+                <li><a href="#">Fullfillment by Amazon</a></li>
+                <li><a href="#">Advertise Your Products</a></li>
+                <li><a href="#">Amazon Pay on Merchants</a></li>
+            </ul>
+        </div>
+        <div class="footer-links">   
+            <h2>Let Us Help You</h2>
+            <ul>
+                <li><a href="#">Your Account</a></li>
+                <li><a href="#">Return Center</a></li>
+                <li><a href="#">100% Purchase Protection</a></li>
+                <li><a href="#">Amazon App Download</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
